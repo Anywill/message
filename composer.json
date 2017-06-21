@@ -1,0 +1,23 @@
+{
+    "name": "mai/message",
+    "description": "满意通短信模板",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["message", "sdk", "api"],
+    "homepage": "https://github.com/Anywill/message",
+    "authors": [
+        {
+            "name": "maijiancheng",
+            "email": "anywillmark@gmail.com"
+        }
+    ],
+    "require": {
+         "php": ">=5.2",
+    },
+    "autoload": {
+        "psr-0": {
+            "Message": "/Message.php"
+        }
+    },
+}
+
