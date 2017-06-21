@@ -1,6 +1,6 @@
 {
     "name": "mai/message",
-    "description": "满意通短信模板",
+    "description": "满意通短信",
     "type": "library",
     "license": "MIT",
     "keywords": ["message", "sdk", "api"],
@@ -12,12 +12,12 @@
         }
     ],
     "require": {
-         "php": ">=5.2",
+         "php": ">=5.2.0",
     },
     "autoload": {
         "psr-0": {
             "Message": "/Message.php"
         }
-    },
+    }
 }
 
